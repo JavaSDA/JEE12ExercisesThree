@@ -34,8 +34,18 @@ public class Main {
         // the name of the bank, the pin of the account. (The account password).
         // Methods are going to include: depositMoney, transferMoney, withdraw money.
 
-        // Bank...
-        //
+        // 1 hour.
+        // EDIT: add the property to find of whether the account is: "current", "savings", or "fixed"
+
+        // Write a class called Bank, the properties of the bank, will include,
+        // the name of the bank, the list of bank accounts currently in use, the charge on
+        // transfers made from one account to the other(only occurs if the banks are not the same)= $5.
+        // Methods are to include: getTotalMoneyInBank(), getTotalSavingsAmount, getTotalCurrentAmount,
+        // getTotalFixedAmount.
+
+        // Add the $5 dollar charge to be taken from the sender's account when a transfer is being made
+        // to a bank that's different from the sender's.
+
 
     }
 }
